@@ -1,0 +1,37 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.learnpower.bookstore",
+      "nativeLanguage": "zh-cn"
+    },
+    "jhipsterVersion": "5.5.0",
+    "applicationType": "gateway",
+    "baseName": "gateway",
+    "packageName": "com.learnpower.bookstore",
+    "packageFolder": "com/learnpower/bookstore",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NDkwMjg4ZGZhOGM2NzdkMzg0ODNlNzYxZTJhYTY1NGEwNGJlNWEyMzc5ZmY0Njg0ODllM2Q1ZjJiOWNkNDk0YWIxMzViNTNkOWFjYmY0YjExYWU2NjhjZGIyMThkNDg4OTcwZDVmYTllMzllNmI1MThmOTJiNzM3ZjZiODJiMWU=",
+    "clientFramework": "angularX",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "enableTranslation": true,
+    "nativeLanguage": "zh-cn",
+    "languages": [
+      "zh-cn"
+    ]
+  }
+}

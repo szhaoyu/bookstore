@@ -1,0 +1,37 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.learnpower.bookstore",
+      "nativeLanguage": "zh-cn"
+    },
+    "jhipsterVersion": "5.5.0",
+    "applicationType": "microservice",
+    "baseName": "app1",
+    "packageName": "com.learnpower.bookstore",
+    "packageFolder": "com/learnpower/bookstore",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "Mzg5MWNjMTE5NDFmNDk4MGFkNGZlNDVlOThhMGVmMjkzMTk3OGQwZTNhMjFiZDNmNmI0NGJhMmUwZDllZGU2YTQ4YTNhNzhiZTVhOTYxYWVlZjIwNzhmZmQ0M2FiYTAxMjE1ZWM1Nzc5MTg2YTk3ZjM0NmU1OGYxYTM0MzMxM2M=",
+    "enableTranslation": true,
+    "languages": [
+      "zh-cn"
+    ],
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "clientPackageManager": "npm",
+    "nativeLanguage": "zh-cn",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.learnpower.bookstore",
+      "nativeLanguage": "zh-cn"
+    },
+    "jhipsterVersion": "5.5.0",
+    "applicationType": "uaa",
+    "baseName": "uaa",
+    "packageName": "com.learnpower.bookstore",
+    "packageFolder": "com/learnpower/bookstore",
+    "serverPort": "9999",
+    "authenticationType": "uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "MWNiY2E0ZmU3MDNmMDZlZDYwNWZlMzA1NmZkNDgyNmRmOTBjMmY5OWRjNTFjYWQzNGQ4M2JlN2E5MmRhZDM2MGVjODU5MWEwODM0ZTdiZjI0OTEwODhlNTFkMTNiNjU0ZGJmZmE0MzAyZmRlZTA2MjQ5ZDFkOGE3NjQ4ODIyNjc=",
+    "enableTranslation": true,
+    "languages": [
+      "zh-cn",
+      "en"
+    ],
+    "testFrameworks": [
+      "gatling"
+    ],
+    "jhiPrefix": "jhi",
+    "clientPackageManager": "npm",
+    "nativeLanguage": "zh-cn",
+    "skipClient": true
+  }
+}

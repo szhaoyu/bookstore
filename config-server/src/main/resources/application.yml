@@ -1,0 +1,23 @@
+info:
+  component: Config Server
+spring:
+  application:
+    name: configserver
+  autoconfigure.exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+  jmx:
+    default_domain: cloud.config.server
+  cloud:
+    config:
+      server:
+        git:
+          #uri: tdl@47.95.115.27:/opt/repositories/tdl_config_repo
+          #search-paths: config-repo
+          #password: x!
+          uri: /Users/sunzhaoyu/bookstore/config-repo
+          #uri: https://github.com/spring-cloud-samples/config-repo
+          #repos:
+          #  - patterns: multi-repo-demo-*
+          #    uri: https://github.com/spring-cloud-samples/config-repo
+
+server:
+  port: 8888
